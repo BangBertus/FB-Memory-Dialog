@@ -56,7 +56,7 @@ sub control(clsname as string,title as string,style as DWORD,x as WORD,_
    ''''''''''
 end sub
 
-sub InitCommonControls
+sub Init_CommonControls
     dim as INITCOMMONCONTROLSEX icc
     icc.dwSize = sizeof(INITCOMMONCONTROLSEX)
     icc.dwICC = ICC_ANIMATE_CLASS Or ICC_BAR_CLASSES _
