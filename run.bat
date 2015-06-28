@@ -1,0 +1,2 @@
+fbc example.bas
+pause
